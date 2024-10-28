@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mensaje</title>
+</head>
+<body>
+    <h2>Lo siento mucho.</h2>
+    <p>¿Quieres volver a intentar el cuestionario?</p>
+    <form action="{{ url_for('home') }}" method="get">
+        <button type="submit">Volver a Intentar</button>
+    </form>
+</body>
+</html>

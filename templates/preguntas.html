@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pregunta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>{{ pregunta['question'] }}</h2>
+    <form action="{{ url_for('respuesta') }}" method="post">
+        {% for option in pregunta['options'] %}
+            <label>
+                <input type="radio" name="respuesta" value="{{ option }}" required> {{ option }}
+            </label><br>
+        {% endfor %}
+        <button type="submit">Siguiente</button>
+    </form>
+</body>
+</html>

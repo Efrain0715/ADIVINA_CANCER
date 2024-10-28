@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_answer.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Diagnóstico probable</h1>
+        <p>El tipo de cáncer más probable según tus respuestas es: <strong>{{ diagnostico }}</strong></p>
+        
+        <p>¿Es este el diagnóstico que esperabas?</p>
+        <form action="{{ url_for('confirmacion_respuesta') }}" method="post">
+            <button type="submit" name="confirmacion" value="si" class="button yes">Sí</button>
+            <button type="submit" name="confirmacion" value="no" class="button no">No</button>
+        </form>
+        
+        <a href="{{ url_for('home') }}" class="link">Volver al inicio</a>
+    </div>
+</body>
+</html>

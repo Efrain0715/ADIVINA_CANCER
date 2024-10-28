@@ -1,0 +1,184 @@
+{
+  "cancers": [
+    {
+      "name": "Cáncer de pulmón",
+      "questions": [
+        {
+          "question": "¿Tienes una tos persistente?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Sientes dolor en el pecho?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Presentas dificultad para respirar?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Tienes pérdida de apetito?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Has notado pérdida de peso sin motivo?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Presentas fatiga o cansancio extremo?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Tienes tos con sangre?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 4, "No": 0}
+        },
+        {
+          "question": "¿Sufres de ronquera persistente?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        }
+      ]
+    },
+    {
+      "name": "Cáncer de mama",
+      "questions": [
+        {
+          "question": "¿Has notado bultos o masas en el pecho?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Tienes secreción o cambio en el pezón?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Has sentido dolor en el pecho?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Has notado cambios en la forma o tamaño del pecho?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Tienes piel enrojecida o engrosada en el pecho?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Presentas dolor en la axila?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Sientes calor o sensibilidad inusual en el pecho?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Has notado venas visibles en el pecho?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        }
+      ]
+    },
+    {
+      "name": "Cáncer de colon",
+      "questions": [
+        {
+          "question": "¿Has notado cambios en tus hábitos intestinales?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Presentas sangre en las heces?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Tienes dolor abdominal o cólicos frecuentes?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 4, "No": 0}
+        },
+        {
+          "question": "¿Sufres de estreñimiento o diarrea persistente?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Has tenido pérdida de peso sin razón aparente?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Presentas gases o hinchazón frecuente?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Tienes fatiga extrema sin motivo claro?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Has notado sensación de evacuación incompleta?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        }
+      ]
+    },
+    {
+      "name": "Cáncer de próstata",
+      "questions": [
+        {
+          "question": "¿Tienes dificultad para orinar?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Sientes dolor al orinar?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 5, "No": 0}
+        },
+        {
+          "question": "¿Presentas dolor en la región pélvica?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Sufres de eyaculación dolorosa?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 4, "No": 0}
+        },
+        {
+          "question": "¿Tienes flujo urinario débil o interrumpido?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        },
+        {
+          "question": "¿Presentas incontinencia urinaria?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Experimentas dolor de espalda baja frecuentemente?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 2, "No": 0}
+        },
+        {
+          "question": "¿Tienes necesidad de orinar con frecuencia, especialmente de noche?",
+          "options": ["Si", "No"],
+          "answer_weight": {"Si": 3, "No": 0}
+        }
+      ]
+    }
+  ]
+}
